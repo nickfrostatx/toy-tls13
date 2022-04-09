@@ -1,0 +1,15 @@
+[package]
+name = "toy-tls13"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm = "0"
+curve25519-dalek = "3"
+derive_more = "0"
+hex = "0"
+hkdf = "0"
+hmac = "0"
+rand_core = { version = "0", default-features = false }
+sha2 = "0"
+x25519-dalek = "1"
